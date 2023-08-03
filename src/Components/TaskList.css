@@ -1,0 +1,23 @@
+.Container{
+  margin-top: 30px;
+  font-size: 16px;
+  box-shadow: 10px 10px 10px 10px #d9d9d9;
+  border: 0.3px solid black;
+  height: 100%;
+}
+div.ListHeaderView{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 9px;
+}
+button.Toggle{
+  padding: 1px;
+  background-color: #4d79ff;
+}
+.Listed{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+}

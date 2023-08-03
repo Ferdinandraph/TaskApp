@@ -1,0 +1,31 @@
+.Listed li{
+  position: relative;  
+  padding: 10px;
+  bottom: 10px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: white;
+  border: 0.4px solid black;
+  box-shadow: 5px 5px 5px 5px #d9d9d9;
+  
+}
+.Listed li.completed{
+  border: 0.4px solid green;
+ border-bottom: 1px solid green;
+ position: relative;
+ width: 100%;
+}
+.Listed li.notcompleted{
+  border: 0.4px solid red;
+ border-bottom: 1px solid red;
+ position: relative;
+ width: 100%;
+}
+.Listed li span .Delete{
+  background-color: red;
+  float: right;
+  line-height: 100%;
+}
+span.IdAndName{
+  float: left;
+}

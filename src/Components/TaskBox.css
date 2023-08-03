@@ -1,0 +1,14 @@
+div.hidden{
+  display: none;
+}
+div.Box{
+  border: 1px solid black;
+  margin: auto;
+  justify-content: center;
+}
+div.success{
+  background-color: green;
+}
+div.warning{
+  background-color: yellow;
+}
