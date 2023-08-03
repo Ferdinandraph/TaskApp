@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[branch "master"]
+	remote = TaskApp
+	merge = refs/heads/master
+[remote "TaskApp"]
+	url = https://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@github.com/Ferdinandraph/TaskApp.git
+	fetch = +refs/heads/*:refs/remotes/TaskApp/*
